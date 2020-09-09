@@ -1,0 +1,24 @@
+
+
+.containerAdminPage{
+  display: flex;
+  width: 100%;
+  overflow: auto;
+
+  height: 800px;
+
+  .left{
+    height: 100%;
+    width: 15%;
+    //overflow: auto;
+    //background-color: red;
+  }
+
+  .right{
+    height: 100%;
+    width: 85%;
+    //overflow: auto;
+    //background-color: blue;
+  }
+
+}

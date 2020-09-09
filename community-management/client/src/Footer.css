@@ -1,0 +1,19 @@
+.footer {
+    /*positon: relative;*/
+    flex-shrink: 0;
+    text-align: center;
+    background-color: gray;
+    color: white;
+}
+
+.row {
+    display: flex;
+}
+
+.column {
+    flex: 50%;
+}
+
+p {
+    font-size: 14px;
+}

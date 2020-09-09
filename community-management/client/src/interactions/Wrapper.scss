@@ -1,0 +1,35 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  //background-color: white;
+}
+
+
+.wrapper {
+  text-align: center;
+  background-color: white;
+}
+
+.wrapper ul {
+  list-style-type: none;
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  *display: inline;
+  overflow: hidden;
+  //background-color: white;
+}
+
+.wrapper li {
+  float: left;
+  padding: 2px 2px;
+  color: black;
+}
+
+
+//li a:hover {
+//  background-color: #111111;
+//  //background-color: white;
+//}

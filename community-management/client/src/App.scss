@@ -1,0 +1,26 @@
+/* npm i node-sass*/
+@import './css/variables';
+.app-content {
+  padding: 15px;
+  @include flex-display(column, flex-start, center);
+}
+
+.last-content{
+  //padding-bottom: 200px;
+}
+.footer{
+
+  position:relative;
+  bottom:0;
+  //position: absolute;
+  //position:fixed;
+  left:0;
+  width:100%;
+  height:-500px;
+  text-align: center;
+  background-color:#ccc;
+}
+
+
+
+

@@ -1,0 +1,32 @@
+
+.daddy{
+  background: linear-gradient(to right, #FFF5EE, #FFFAFA);
+}
+
+
+
+.alignGrid{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  flexGrow: 1;
+
+  //max-height: 1000px;
+  //height: 1000px;
+
+  .useLess{
+    width: 20%;
+    height: 100%;
+    //overflow: auto;
+    //background-color: red;
+  }
+
+  .right{
+    width: 80%;
+    height: 100%;
+    //overflow: auto;
+    //background-color: blue;
+  }
+
+};
